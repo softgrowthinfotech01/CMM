@@ -95,7 +95,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <div class="card-title">SUPPLIER INFORMATION</div>
+                  <div class="card-title">PURCHASE BILL</div>
                 </div>
                 <div class="card-body">
                   <form>
@@ -104,7 +104,7 @@
                       <div class="col-md-12">
                         <div class="card">
                           <div class="card-header">
-                            <div class="card-title">SUPPLIER INFORMATION</div>
+                            <div class="card-title">PURCHASE BILL</div>
                           </div>
                           <div>
                           </div>
@@ -124,12 +124,12 @@
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="supplieraddress">SUPPLIER ADDRESS</label>
+                          <label for="invoicenumber">INVOICE NUMBER</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="supplieraddress"
-                            placeholder="Enter address" />
+                            id="invoicenumber"
+                            placeholder="Enter number" />
                         </div>
                       </div>
                     </div>
@@ -137,22 +137,79 @@
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="supplierphone">SUPPLIER PHONE</label>
+                          <label for="materialname">MATERIAL NAME</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="supplierphone"
-                            placeholder="Enter phone number" />
+                            id="materialname"
+                            placeholder="Enter material name" />
                         </div>
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="bankdetails">BANK DETAILS</label>
+                          <label for="quantity">QUANTITY</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="bankdetails"
-                            placeholder="Enter bank details" />
+                            id="quantity"
+                            placeholder="Enter quantity" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="orice">PRICE</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="price"
+                            placeholder="Enter price" />
+                        </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="amount">AMOUNT</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="invoicenumber"
+                            placeholder="Enter amount" />
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                    <div class="row mb-2">
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="discount">DISCOUNT %</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="discount"
+                            placeholder="Enter discount" />
+                        </div>
+                      </div>
+                      <div class="col-md-6 "></div>
+                    </div>
+                    <div class="row mb-2">
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <input 
+                            type="radio"
+                            value="paid"
+                            />
+                            <label for="paid">PAID</lable>                        
+                        </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <input 
+                            type="radio"
+                            value="pending"
+                            />
+                            <label for="pending">PENDING</lable>  
                         </div>
                       </div>
                     </div>
