@@ -3,7 +3,7 @@
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
             <a href="logistic" class="logo">
-            <h2 class="text-white">   LOGISTICS</h2>
+            <h2 class="text-white">   CMM</h2>
             </a>
             <div class="nav-toggle">
               <button class="btn btn-toggle toggle-sidebar">
@@ -41,33 +41,23 @@
                 <div class="collapse" id="forms-menu">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="vehicle_info.php">
-                        <span class="sub-item">Vehicle Information</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="location.php">
-                        <span class="sub-item">Location</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="agent_info.php">
-                        <span class="sub-item">Agent Information</span>
-                      </a>
-                    </li>
-                    <li>
                       <a href="booking.php">
-                        <span class="sub-item">Booking Information</span>
+                        <span class="sub-item">Supplier Information</span>
                       </a>
                     </li>
                     <li>
-                      <a href="incentive.php">
-                        <span class="sub-item">Incentive</span>
+                      <a href="customer.php">
+                        <span class="sub-item">Customer Information</span>
                       </a>
                     </li>
                     <li>
-                      <a href="vehicle_track.php">
-                        <span class="sub-item">Vehicle Tracking</span>
+                      <a href="purchase.php">
+                        <span class="sub-item">Purchase Information</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="invoice.php">
+                        <span class="sub-item">Invoice Information</span>
                       </a>
                     </li>
                   </ul>
@@ -81,34 +71,24 @@
                 </a>
                 <div class="collapse" id="tablesdata">
                   <ul class="nav nav-collapse">
-                    <!-- <li>
-                      <a href="record.php">
-                        <span class="sub-item">Student Record</span>
-                      </a>
-                    </li> -->
                     <li>
-                      <a href="vehicle_record.php">
-                        <span class="sub-item">Vehicle Record</span>
+                      <a href="supplier_record.php">
+                        <span class="sub-item">Supplier Record</span>
                       </a>
                     </li>
                     <li>
-                      <a href="agent_record.php">
-                        <span class="sub-item">Agent Record</span>
+                      <a href="customer_record.php">
+                        <span class="sub-item">Customer Record</span>
                       </a>
                     </li>
                     <li>
-                      <a href="booking_record.php">
-                        <span class="sub-item">Booking Record</span>
+                      <a href="purchase_record.php">
+                        <span class="sub-item">Purchase Record</span>
                       </a>
                     </li>
                     <li>
-                      <a href="incentive_record.php">
-                        <span class="sub-item">Incentive Record</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="tracking_record.php">
-                        <span class="sub-item">Vehicle Tracking Record</span>
+                      <a href="invoice_record.php">
+                        <span class="sub-item">Invoice Record</span>
                       </a>
                     </li>
                   </ul>
