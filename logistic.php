@@ -6,7 +6,7 @@
 
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title> Admin Dash</title>
+  <title> Admin Dashboard</title>
 
   
   <meta
