@@ -69,28 +69,7 @@
 
             <div class="container">
                 <div class="page-inner">
-                    <div class="page-header">
-                        <h3 class="fw-bold mb-3">INVOICE INFORMATION</h3>
-                        <ul class="breadcrumbs mb-3">
-                            <li class="nav-home">
-                                <a href="#">
-                                    <i class="icon-home"></i>
-                                </a>
-                            </li>
-                            <li class="separator">
-                                <i class="icon-arrow-right"></i>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#">Master Forms</a>
-                            </li>
-                            <li class="separator">
-                                <i class="icon-arrow-right"></i>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#">Invoice Information</a>
-                            </li>
-                        </ul>
-                    </div>
+                    
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
@@ -223,7 +202,7 @@
                                             </div>
 
                                             <div>
-                                                <button class="button button2">SUBMIT</button>
+                                                <button class="button button2 mt-4" style="margin-left: 670px;" >SUBMIT</button>
                                             </div>
 
                                         </div>
@@ -235,10 +214,11 @@
 
                 </div>
                 <!-- Footer -->
-                <?php include "footer.php" ?>
+                
 
 
             </div>
+            <?php include "footer.php" ?>
             <!--   Core JS Files   -->
             <script src="assets/js/core/jquery-3.7.1.min.js"></script>
             <script src="assets/js/core/popper.min.js"></script>

@@ -44,6 +44,13 @@
       background-color: #008CBA;
       color: white;
     }
+      ::file-selector-button 
+    {
+      border: 2px solid black;
+      padding: 4px;
+      border-radius: 5px;
+      background-color: lightgreen;
+    }
   </style>
 
   <!-- CSS Files -->
@@ -74,7 +81,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <div class="card-title">PURCHASE INFORMATION</div>
+                  <div class="card-title">COMPANY INFORMATION</div>
                 </div>
                 <div class="card-body">
                   <form>
@@ -91,97 +98,55 @@
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="suppliername">SUPPLIER NAME</label>
+                          <label for="companyname">COMPANY NAME</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="suppliername"
-                            placeholder="Enter Name" />
+                            id="companyname"
+                            placeholder="Enter company Name" />
                         </div>
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="invoicenumber">INVOICE NUMBER</label>
+                          <label for="phonenumber">PHONE</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="invoicenumber"
-                            placeholder="Enter number" />
+                            id="phonenumber"
+                            placeholder="Enter phone number" />
                         </div>
                       </div>
                     </div>
+                      
 
-                    <div class="row">
-                          
-    
-    <table class="table" id="childTable">
-  <thead>
-    <tr class="table-dark">
-      <th scope="col">Sr. No.</th>
-      <th scope="col">MATERIAL NAME</th>
-      <th scope="col">QUNTITY</th>
-      <th scope="col"> PRICE</th>
-      <th scope="col">AMOUNT</th>
-      <th scope="col" colspan="2">DISCOUNT</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>
-        <input type="text" name="" id="">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 50px;">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 100px;">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 100px;">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 100px;">
-      </td>
-      <td>
-        <button type="button" class="btn btn-success" onclick="childrenRow()">Add</button>
-<button type="button" class="btn btn-danger btnDelete" >Remove</button>
-      </td>
-      
-    </tr>
-    
-  </tbody>
-</table>
-                    </div>
-   <div class="row mb-2">
-                      <div class="col-md-12">
-                        <div class="card">
-                          <div class="card-header">
-                            <div class="card-title">PAYMENT STATUS</div>
-                            </div>
-                          </div>
-                      </div>
+                    <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <input 
-                            type="radio"
-                            value="paid"
-                            />
-                            <label for="paid">PAID</lable>                        
+                          <label for="address">ADDRESS</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="address"
+                            placeholder="Enter address" />
                         </div>
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <input 
-                            type="radio"
-                            value="pending"
-                            />
-                            <label for="pending">PENDING</lable>  
+                          <label class="pb-2" for="companylogo">COMPANY LOGO</label><br>
+                          <input class="rounded-2" type="file" id="myFile" name="filename">
+                          <input class="rounded-2 p-1 ps-2 pe-2" style="background-color: #90EE90;" type="submit">
                         </div>
                       </div>
-                    </div> 
+                    </div>
+                    
 
-                   <button class="button button2 mt-4" style="margin-left: 670px;" >SUBMIT</button>
+                    
+                       
+                     
+
+                      
+                   
+                    <button class="button button2 mt-4" style="margin-left: 670px;" >SAVE</button>
                 </div>
                 
                 </form>
@@ -191,12 +156,12 @@
         </div>
 
         <!-- Footer -->
-        <?php include "footer.php"; ?>
+        
 
       
       </div>
 
-      
+      <?php include "footer.php"; ?>
     </div>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery-3.7.1.min.js"></script>
@@ -237,20 +202,6 @@
     <!-- Kaiadmin DEMO methods, don't include it in your project! -->
     <script src="assets/js/setting-demo2.js"></script>
 
-    <script>
-$(document).ready(function () {
-  // Bind the click event once, outside the childrenRow function
-  $("#childTable").on('click', '.btnremove', function () {
-    $(this).closest('tr').remove();
-  });
-});
-
-var i = 1;
-function childrenRow() {
-  i++;
-  $('#childTable').find('tbody').append('<tr><th scope="row">' + i + '</th><td><input type="text"></td><td><input type="text" style="width: 50px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><button type="button" class="btn btn-success" onclick="childrenRow()">Add</button><button type="button" class="btn btnremove btn-danger">Remove</button></td></tr>');
-}
-  </script>
 </body>
 
 </html>

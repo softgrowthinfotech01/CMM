@@ -49,7 +49,7 @@
 
       <div class="main-panel">
         <!-- Header -->
-      
+      <?php include "header.php"?>
 
         <div class="container">
           <div class="page-inner">
@@ -68,32 +68,29 @@
                       >
                         <thead>
                           <tr>
-                            <th>Student ID</th>
-                            <th>Student Name</th>
-                            <th>Document List</th>
-                            <th>Fees Paid</th>
-                            <th>Amount</th>
-                            <th>Receipt Number</th>
-                            <th>Scholarship Details</th>
-                            <th>Student Phone Number</th>
-                            <th>Father Phone Number</th>
-                            <th>Address</th>
-                            <th>Chairman Remark</th>
+                            <th>CUSTOMERS</th>
+                            <th>CUSTOMER NAME</th>
+                            <th>MATERIAL NUMBER</th>
+                            <th>QUANTITY</th>
+                            <th>PRICE</th>
+                            <th>AMOUNT</th>
+                            <th>DISCOUNT %</th>
+                            <th>PAYMENT STATUS</th>
+                            <th>PAID/PENDING</th>
+                            
                           </tr>
                         </thead>
                         <tfoot>
                           <tr>
-                            <th>Student ID</th>
-                            <th>Student Name</th>
-                            <th>Document List</th>
-                            <th>Fees Paid</th>
-                            <th>Amount</th>
-                            <th>Receipt Number</th>
-                            <th>Scholarship Details</th>
-                            <th>Student Phone Number</th>
-                            <th>Father Phone Number</th>
-                            <th>Address</th>
-                            <th>Chairman Remark</th>
+                           <th>CUSTOMERS</th>
+                            <th>CUSTOMER NAME</th>
+                            <th>MATERIAL NUMBER</th>
+                            <th>QUANTITY</th>
+                            <th>PRICE</th>
+                            <th>AMOUNT</th>
+                            <th>DISCOUNT %</th>
+                            <th>PAYMENT STATUS</th>
+                            <th>PAID/PENDING</th>
                           </tr>
                         </tfoot>
                         <tbody>
@@ -196,7 +193,7 @@
         </div>
 
         <!-- Footer -->
-       
+       <?php include "footer.php"?>
       </div>
 
     </div>

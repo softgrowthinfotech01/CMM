@@ -1,4 +1,4 @@
- <footer class="footer">
+ <footer class="footer bg-light shadow ">
           <div class="container-fluid d-flex justify-content-between">
             <div class="copyright">
               2025, made by

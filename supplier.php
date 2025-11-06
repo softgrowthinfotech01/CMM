@@ -44,6 +44,13 @@
       background-color: #008CBA;
       color: white;
     }
+      ::file-selector-button 
+    {
+      border: 2px solid black;
+      padding: 4px;
+      border-radius: 5px;
+      background-color: lightgreen;
+    }
   </style>
 
   <!-- CSS Files -->
@@ -69,28 +76,7 @@
 
       <div class="container">
         <div class="page-inner">
-          <div class="page-header">
-            <h3 class="fw-bold mb-3">SUPPLIER INFORMATION</h3>
-            <ul class="breadcrumbs mb-3">
-              <li class="nav-home">
-                <a href="#">
-                  <i class="icon-home"></i>
-                </a>
-              </li>
-              <li class="separator">
-                <i class="icon-arrow-right"></i>
-              </li>
-              <li class="nav-item">
-                <a href="#">Master Forms</a>
-              </li>
-              <li class="separator">
-                <i class="icon-arrow-right"></i>
-              </li>
-              <li class="nav-item">
-                <a href="#">Supplier Information</a>
-              </li>
-            </ul>
-          </div>
+          
           <div class="row">
             <div class="col-md-12">
               <div class="card">
@@ -122,35 +108,36 @@
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="supplieraddress">SUPPLIER ADDRESS</label>
+                          <label for="address">SUPPLIER ADDRESS</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="supplieraddress"
+                            id="address"
                             placeholder="Enter address" />
                         </div>
                       </div>
                     </div>
+                      
 
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="supplierphone">SUPPLIER PHONE</label>
+                          <label for="phonenumber">SUPPLIER PHONE</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="supplierphone"
+                            id="phone number"
                             placeholder="Enter phone number" />
                         </div>
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="bankdetails">BANK DETAILS</label>
+                          <label for="bankdetials">BANK DETAILS</label>
                           <input
                             type="text"
                             class="form-control"
                             id="bankdetails"
-                            placeholder="Enter bank details" />
+                            placeholder="Enter bank details">
                         </div>
                       </div>
                     </div>
@@ -162,7 +149,7 @@
 
                       
                    
-                    <button class="button button2 " >SUBMIT</button>
+                    <button class="button button2 mt-4" style="margin-left: 670px;" >SAVE</button>
                 </div>
                 
                 </form>
@@ -172,11 +159,11 @@
         </div>
 
         <!-- Footer -->
-        <?php include "footer.php"; ?>
+       
 
       
       </div>
-
+ <?php include "footer.php"; ?>
       
     </div>
     <!--   Core JS Files   -->

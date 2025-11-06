@@ -49,6 +49,7 @@
 
       <div class="main-panel">
         <!-- Header -->
+         <?php include "header.php"?>
       
 
         <div class="container">
@@ -68,32 +69,19 @@
                       >
                         <thead>
                           <tr>
-                            <th>Student ID</th>
-                            <th>Student Name</th>
-                            <th>Document List</th>
-                            <th>Fees Paid</th>
-                            <th>Amount</th>
-                            <th>Receipt Number</th>
-                            <th>Scholarship Details</th>
-                            <th>Student Phone Number</th>
-                            <th>Father Phone Number</th>
-                            <th>Address</th>
-                            <th>Chairman Remark</th>
+                            <th>COMPANIES</th>
+                            <th>COMPANIES NAME</th>
+                            <th>PHONE NUMBER</th>
+                            <th>ADDRESS</th>
                           </tr>
                         </thead>
                         <tfoot>
                           <tr>
-                            <th>Student ID</th>
-                            <th>Student Name</th>
-                            <th>Document List</th>
-                            <th>Fees Paid</th>
-                            <th>Amount</th>
-                            <th>Receipt Number</th>
-                            <th>Scholarship Details</th>
-                            <th>Student Phone Number</th>
-                            <th>Father Phone Number</th>
-                            <th>Address</th>
-                            <th>Chairman Remark</th>
+                            <th>COMPANIES</th>
+                            <th>COMPANIES NAME</th>
+                            <th>PHONE NUMBER</th>
+                            <th>ADDRESS</th>
+                            
                           </tr>
                         </tfoot>
                         <tbody>
@@ -196,7 +184,7 @@
         </div>
 
         <!-- Footer -->
-       
+       <?php include "footer.php"?>
       </div>
 
     </div>

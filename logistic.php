@@ -7,6 +7,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title> Admin Dashboard</title>
+  
 
   
   <meta
@@ -35,11 +36,105 @@
       },
     });
   </script>
+  
 
+
+
+
+  
   <!-- CSS Files -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/plugins.min.css" />
   <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
+
+  
+    <style>
+  /* Remove sidebar spacing and make dashboard full screen */
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-panel {
+    width: 100% !important;  /* stretch across full screen */
+    margin-left: 0 !important; /* remove reserved sidebar space */
+    height: 100vh; /* full height */
+  }
+
+  .container, .page-inner {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  /* Optional: remove demo layout constraints */
+  body.demo {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+   html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Remove sidebar layout spacing */
+  .wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Force the main panel to use full width */
+  .main-panel {
+    width: 100% !important;
+    margin-left: 0 !important;
+    height: 100vh;
+  }
+
+  /* Stretch header full width */
+  .main-header,
+  header {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  /* Fix page-inner area */
+  .page-inner {
+    width: 100%;
+    min-height: calc(100vh - 80px); /* adjusts for header height */
+  }
+
+  /* Optional: remove demo spacing if demo.css is still loaded */
+  body.demo {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff; /* or match your theme color */
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+</style>
+
+  
 
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link rel="stylesheet" href="assets/css/demo.css" />
@@ -49,7 +144,7 @@
   <div class="wrapper">
     <!-- Sidebar -->
 
-    <?php include "side-menu.php"; ?>
+    
     <!-- End Sidebar -->
 
     <div class="main-panel">
@@ -59,84 +154,11 @@
       ?>
       <div class="container">
         <div class="page-inner">
-          <div
-            class="d-flex align-items-left align-items-md-center flex-column flex-md-row pt-2 pb-4">
-            <div>
-              <h3 class="fw-bold mb-3">Dashboard</h3>
 
-            </div>
-            <!-- <div class="ms-md-auto py-2 py-md-0">
-                
-                <a href="#" class="btn btn-primary btn-round">Add Student</a>
-              </div> -->
-          </div>
           <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <div class="card card-stats card-round">
-                <div class="card-body">
-                  <div class="row align-items-center">
-                    <div class="col-icon">
-                      <div
-                        class="icon-big text-center icon-primary bubble-shadow-small">
-                        <i class="fas fa-users"></i>
-                      </div>
-                    </div>
-                    <div class="col col-stats ms-3 ms-sm-0">
-                      <div class="numbers">
-                        <a href="booking.php">
-                          <p class="card-category"><b>Booking Information</b></p>
-                          <h4 class="card-title"></h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="card card-stats card-round">
-                <div class="card-body">
-                  <div class="row align-items-center">
-                    <div class="col-icon">
-                      <div
-                        class="icon-big text-center icon-info bubble-shadow-small">
-                        <i class="fas fa-user-check"></i>
-                      </div>
-                    </div>
-                    <div class="col col-stats ms-3 ms-sm-0">
-                      <div class="numbers">
-                        <a href="vehicle_track.php">
-                          <p class="card-category"><b>Vehicle Tracking</b></p>
-                          <h4 class="card-title"></h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="card card-stats card-round">
-                <div class="card-body">
-                  <div class="row align-items-center">
-                    <div class="col-icon">
-                      <div
-                        class="icon-big text-center icon-success bubble-shadow-small">
-                        <i class="fas fa-luggage-cart"></i>
-                      </div>
-                    </div>
-                    <div class="col col-stats ms-3 ms-sm-0">
-                      <div class="numbers">
-                        <a href="vehicle_info.php">
-                          <p class="card-category"><b>Vehicle Information</b></p>
-                          <h4 class="card-title"></h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
+            
+            
           </div>
         </div>
       </div>
