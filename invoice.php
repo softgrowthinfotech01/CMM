@@ -94,17 +94,15 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
-                                <!-- <div class="card-header">
+                                <div class="card-header">
                                     <div class="card-title">INVOICE INFORMATION</div>
-                                </div> -->
+                                </div>
                                 <div class="card-body">
                                     <form>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="card">
-                                                    <div class="card-header">
-                                                        <div class="card-title">INVOICE INFORMATION</div>
-                                                    </div>
+
                                                 </div>
                                             </div>
 
@@ -116,7 +114,7 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="recievervendorname"
-                                                            placeholder="Enter Name" />
+                                                            placeholder="Enter invoice number" />
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
@@ -126,7 +124,7 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="recievervendorphone"
-                                                            placeholder="Enter Address" />
+                                                            placeholder="Enter Name" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -139,7 +137,7 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="location"
-                                                            placeholder="Enter phone number" />
+                                                            placeholder="Enter Material Name" />
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
@@ -149,7 +147,7 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="location"
-                                                            placeholder="Enter bank details" />
+                                                            placeholder="Enter quantity of materials" />
                                                     </div>
                                                 </div>
 
@@ -162,7 +160,7 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="location"
-                                                            placeholder="Enter phone number" />
+                                                            placeholder="Enter price of materials" />
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
@@ -172,7 +170,7 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="location"
-                                                            placeholder="Enter bank details" />
+                                                            placeholder="Enter amount of materials" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -180,12 +178,12 @@
                                             <div class="row mb-2">
                                                 <div class="col-md-6 ">
                                                     <div class="form-group">
-                                                        <label for="location">DISCOUNT</label>
+                                                        <label for="location">DISCOUNT %</label>
                                                         <input
                                                             type="text"
                                                             class="form-control"
                                                             id="location"
-                                                            placeholder="Enter phone number" />
+                                                            placeholder="Enter discount offered" />
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
@@ -195,24 +193,29 @@
                                             </div>
 
                                             <div class="row mb-2">
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <input
-                                                            type="radio"
-                                                            value="paid"
-                                                             />
-                                                              <label for="paid">PAID</label>
+                                                <div class="col-md-12">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            <div class="card-title">PAYMENT STATUS</div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
                                                     <div class="form-group">
-                                                        
                                                         <input
                                                             type="radio"
-                                                            
-                                                            value="pending"
-                                                             />
-                                                             <label for="pending">PENDING</label>
+                                                            value="paid" />
+                                                        <label for="paid">PAID</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ">
+                                                    <div class="form-group">
+
+                                                        <input
+                                                            type="radio"
+
+                                                            value="pending" />
+                                                        <label for="pending">PENDING</label>
                                                     </div>
 
                                                 </div>

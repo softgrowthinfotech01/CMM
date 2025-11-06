@@ -94,17 +94,15 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
-                                <!-- <div class="card-header">
+                                <div class="card-header">
                                     <div class="card-title">CUSTOMER INFORMATION</div>
-                                </div> -->
+                                </div>
                                 <div class="card-body">
                                     <form>
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="card">
-                                                    <div class="card-header">
-                                                        <div class="card-title">CUSTOMER INFORMATION</div>
-                                                    </div>
+                                                    
                                                 </div>
                                             </div>
 

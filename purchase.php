@@ -103,9 +103,7 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="card">
-                          <div class="card-header">
-                            <div class="card-title">PURCHASE BILL</div>
-                          </div>
+                          
                           <div>
                           </div>
                         </div>
@@ -194,6 +192,13 @@
                       <div class="col-md-6 "></div>
                     </div>
                     <div class="row mb-2">
+                      <div class="col-md-12">
+                                                    <div class="card">
+                                                        <div class="card-header">
+                                                            <div class="card-title">PAYMENT STATUS</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
                           <input 

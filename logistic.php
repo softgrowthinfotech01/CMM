@@ -137,31 +137,6 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="card card-stats card-round">
-                <div class="card-body">
-                  <div class="row align-items-center">
-                    <div class="col-icon">
-                      <div
-                        class="icon-big text-center icon-secondary bubble-shadow-small">
-                        <i class="far fa-check-circle"></i>
-                      </div>
-                    </div>
-                    <div class="col col-stats ms-3 ms-sm-0">
-                      <div class="numbers">
-                        <a href="agent_info.php">
-                          <p class="card-category"><b>Agent Information</b></p>
-                          <h4 class="card-title"></h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center">
-            <img src="logistics.jpg" alt="truckimg" class="img-thumbnail" style="height: 400px; width: 1100px">
-            </div>
           </div>
         </div>
       </div>
