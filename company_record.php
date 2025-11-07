@@ -59,7 +59,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title"></h4>
+                    <h4 class="card-title text-danger">COMPANY RECORD</h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -88,7 +88,7 @@
                           <tr>
                             <td>1</td>
                             <td>Concrete Central</td>
-                            <td>xxxxxxxx00
+                            <td>9654154520
                             </td>
                             <td>2257 E 23rd St, Oakland, CA 94606, USA</td>
                            
@@ -97,7 +97,7 @@
                           <tr>
                             <td>2</td>
                             <td>Timberline Build Group</td>
-                            <td>xxxxxxxx11
+                            <td>9658410365
                             </td>
                             <td>3557 D 3rd St, Oakland, CA 94606, USA</td>
                             
@@ -106,7 +106,7 @@
                           <tr>
                             <td>3</td>
                             <td>Keystone Trading Co.</td>
-                            <td>xxxxxxxx58
+                            <td>8658465365
                             </td>
                             <td>4567 F 235rd St, Oakland, CA 94606, USA</td>
                             
@@ -115,7 +115,7 @@
                           <tr>
                             <td>4</td>
                             <td>LuminaBuild</td>
-                            <td>xxxxxxxx72
+                            <td>9824001245
                             </td>
                             <td>0050 G 12rd St, Oakland, CA 94606, USA</td>
                             

@@ -41,7 +41,7 @@
     }
 
     .button2:hover {
-      background-color: #008CBA;
+      background-color: orange;
       color: white;
     }
       ::file-selector-button 
@@ -81,7 +81,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <div class="card-title">SUPPLIER INFORMATION</div>
+                  <div class="card-title text-danger">SUPPLIER INFORMATION</div>
                 </div>
                 <div class="card-body">
                   <form>
@@ -137,12 +137,19 @@
                             type="text"
                             class="form-control"
                             id="bankdetails"
-                            placeholder="Enter bank details">
-                            &nbsp;<input
+                            placeholder="Enter Account number">
+                            &nbsp;<div class="d-flex gap-5"> <input
                             type="text"
                             class="form-control"
                             id="bankdetails"
-                            placeholder="">
+                            style="width: 50%;"
+                            placeholder="Enter IFSC code">
+                            <input
+                            type="text"
+                            class="form-control"
+                            id="bankdetails"
+                            style="width: 50%;"
+                            placeholder="Enter Branch name"></div>
                         </div>
                       </div>
                     </div>
@@ -154,7 +161,7 @@
 
                       
                    
-                    <button class="button button2 mt-4" style="margin-left: 670px;" >SAVE</button>
+                    <button class="button button2 mt-4 " style="margin-left: 670px;" >SAVE</button>
                 </div>
                 
                 </form>

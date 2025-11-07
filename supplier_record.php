@@ -58,7 +58,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title"></h4>
+                    <h4 class="card-title text-danger">SUPPLIER RECORD</h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -92,8 +92,8 @@
                             <td>Garrett Winters</td>
                             <td>2257 E 23rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>xxxxxxxx72</td>
-                            <td>xxxxxxxxxxxxxx1234</td>
+                            <td>8658465365</td>
+                            <td>96235645784516646</td>
                             
                           </tr>
 
@@ -102,8 +102,9 @@
                             <td>Tony Stark</td>
                             <td>3557 D 3rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>xxxxxxxx20</td>
-                            <td>xxxxxxxxxxxxxx4567</td>
+                            <td>8521357841
+                            </td>
+                            <td>96235645784518660</td>
                             
                           </tr>
 
@@ -112,8 +113,8 @@
                             <td>Peter Parker</td>
                             <td>4567 F 235rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>xxxxxxxx71</td>
-                            <td>xxxxxxxxxxxxxx0052</td>
+                            <td>7521634921</td>
+                            <td>96281654464556164</td>
                             
                           </tr>
 
@@ -122,8 +123,8 @@
                             <td>Thomas Shelby</td>
                             <td>0050 G 12rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>xxxxxxxx22</td>
-                            <td>xxxxxxxxxxxxxx1111</td>
+                            <td>8658465365</td>
+                            <td>96235626699445182</td>
                             
                           </tr>
 

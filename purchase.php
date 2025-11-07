@@ -41,7 +41,7 @@
     }
 
     .button2:hover {
-      background-color: #008CBA;
+      background-color: orange;
       color: white;
     }
   </style>
@@ -74,7 +74,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <div class="card-title">PURCHASE INFORMATION</div>
+                  <div class="card-title text-danger">PURCHASE INFORMATION</div>
                 </div>
                 <div class="card-body">
                   <form>
@@ -108,6 +108,21 @@
                             id="invoicenumber"
                             placeholder="Enter number" />
                         </div>
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="phone number">PHONE NUMBER</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="phone number"
+                            placeholder="Enter phone number" />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+
                       </div>
                     </div>
 

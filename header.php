@@ -60,10 +60,10 @@ footer {
 
 </style>
 
-<div class="main-header">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-    <div class="container-fluid  gap-3">
-      <a href="logistic.php"><h2 class="me-5 mb-0 text-black">Dashboard</h2></a>
+<div class="main-header " style="background-color:black;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-black border-bottom">
+    <div class="container-fluid  gap-2">
+      <a href="logistic.php"><h2 class="me-5 mb-0 text-white">Dashboard</h2></a>
 
       <!-- Main Menu -->
        <div class="d-grid  rounded-3 d-md-block">
@@ -87,7 +87,7 @@ footer {
       </div>
 
       <div class="dropdown rounded-3  ">
-        <a class="btn btn-light   dropdown-toggle p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="btn btn-light   dropdown-toggle p-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           PAYMENT
         </a>
 
@@ -98,7 +98,7 @@ footer {
       </div>
 
       <div class="dropdown rounded-3 ">
-        <a class="btn btn-light   dropdown-toggle p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="btn btn-light   dropdown-toggle p-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           REPORT
         </a>
 
@@ -119,8 +119,8 @@ footer {
       <!-- Right side user section -->
       <ul class="navbar-nav ms-auto align-items-center rounded-3 ">
         <li class="nav-item dropdown rounded-3 ">
-          <a class="nav-link dropdown-toggle d-flex align-items-center rounded-3 p-3" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="fw-bold  text-dark rounded-5 ">Hi, Logistics</span>
+          <a class="nav-link dropdown-toggle d-flex align-items-center rounded-3 p-2" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="fw-bold  text-white rounded-5 ">Hi, CMM</span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
             <li><a class="dropdown-item" href="#">Account Setting</a></li>

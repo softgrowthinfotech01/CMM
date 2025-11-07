@@ -1,4 +1,4 @@
- <footer class="footer bg-light shadow ">
+ <footer class="footer  shadow " style="background-color: SlateBlue;">
           <div class="container-fluid d-flex justify-content-between">
             <div class="copyright">
               2025, made by

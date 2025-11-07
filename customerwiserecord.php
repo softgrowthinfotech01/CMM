@@ -59,7 +59,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title"></h4>
+                    <h4 class="card-title text-danger">CUSTOMER WISE RECORD</h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -91,48 +91,48 @@
                         <tbody>
                           <tr>
                             <td>1</td>
-                            <td>12312312</td>
-                            <td>00/00/0000
+                            <td>123456</td>
+                            <td>02/11/2025
                             </td>
-                            <td>xxxxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td>00/00/0000
+                            <td>40,000</td>
+                            <td>10,000</td>
+                            <td>05/12/2025
                             </td>
                            
                           </tr>
 
                           <tr>
                             <td>2</td>
-                            <td>12312312</td>
-                            <td>00/00/0000
+                            <td>741236</td>
+                            <td>08/11/2025
                             </td>
-                            <td>xxxxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td>00/00/0000
+                            <td>30,000</td>
+                            <td>20,000</td>
+                            <td>01/12/2025
                             </td>
                             
                           </tr>
 
                           <tr>
                             <td>3</td>
-                            <td>12312312</td>
-                            <td>00/00/0000
+                            <td>856412</td>
+                            <td>08/11/2025
                             </td>
-                            <td>xxxxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td>00/00/0000
+                            <td>25,000</td>
+                            <td>25,000</td>
+                            <td>03/12/2025
                             </td>
                             
                           </tr>
 
                           <tr>
                             <td>4</td>
-                            <td>12312312</td>
-                            <td>00/00/0000
+                            <td>546128</td>
+                            <td>07/11/2025
                             </td>
-                            <td>xxxxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td>00/00/0000
+                            <td>20,000</td>
+                            <td>30,000</td>
+                            <td>02/12/2025
                             </td>
                             
                             

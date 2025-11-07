@@ -58,7 +58,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title"></h4>
+                    <h4 class="card-title text-danger">PURCHASE RECORD</h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -99,13 +99,13 @@
                           <tr>
                             <td>1</td>
                             <td>Garrett Winters</td>
-                            <td>12312312
+                            <td>96851234
                             </td>
                             <td>Concrete</td>
                             <td>50</td>
-                            <td>xxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td>5%</td>
+                            <td>2,40,000</td>
+                            <td>10,00,000</td>
+                            <td>4%</td>
                             <td>Cash</td>
                             <td>Paid</td>
                             
@@ -114,13 +114,13 @@
                           <tr>
                             <td>2</td>
                             <td>Tony Stark</td>
-                            <td>12312312
+                            <td>84253784
                             </td>
                             <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td>5%</td>
+                            <td>40</td>
+                            <td>1,50,000</td>
+                            <td>2,00,000</td>
+                            <td>7%</td>
                             <td>Online</td>
                             <td>Paid</td>
                             
@@ -132,25 +132,25 @@
                             <td>12312312
                             </td>
                             <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
-                            <td>xxxxxxx</td>
+                            <td>55</td>
+                            <td>50,000</td>
+                            <td>5,00,000</td>
                             <td>5%</td>
-                            <td>Cash</td>
-                            <td>Paid</td>
+                            <td>-----</td>
+                            <td>Pending</td>
                             
                           </tr>
 
                           <tr>
                             <td>4</td>
                             <td>Thomas Shelby</td>
-                            <td>12312312
+                            <td>52416398
                             </td>
                             <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
-                            <td>xxxxxxx</td>
-                            <td> 5%</td>
+                            <td>60</td>
+                            <td>1,00,000</td>
+                            <td>8,00,000</td>
+                            <td> 7%</td>
                             <td>Online</td>
                             <td>Paid</td>
                            

@@ -41,7 +41,7 @@
     }
 
     .button2:hover {
-      background-color: #008CBA;
+      background-color: orange;
       color: white;
     }
    
@@ -52,6 +52,11 @@
       border-radius: 5px;
       background-color: lightgreen;
     }
+    .card-title
+    {
+      
+    }
+    
   </style>
 
   <!-- CSS Files -->
@@ -82,7 +87,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header">
-                  <div class="card-title">COMPANY INFORMATION</div>
+                  <div class="card-title text-danger">COMPANY INFORMATION</div>
                 </div>
                 <div class="card-body">
                   <form>

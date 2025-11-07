@@ -41,7 +41,7 @@
         }
 
         .button2:hover {
-            background-color: #008CBA;
+            background-color: orange;
             color: white;
         }
     </style>
@@ -74,7 +74,7 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <div class="card-title">CUSTOMER INFORMATION</div>
+                                    <div class="card-title text-danger">CUSTOMER INFORMATION</div>
                                 </div>
                                 <div class="card-body">
                                     <form>
@@ -126,12 +126,20 @@
                                                             type="text"
                                                             class="form-control"
                                                             id="location"
-                                                            placeholder="Enter bank details" />
-                                                        &nbsp;<input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="bankdetails"
-                                                            placeholder="">
+                                                            placeholder="Enter Account number" />
+                                                        &nbsp;<div class="d-flex gap-5"> <input
+                                                                type="text"
+                                                                class="form-control"
+                                                                id="bankdetails"
+                                                                style="width: 50%;"
+                                                                placeholder="Enter IFSC code">
+                                                            <input
+                                                                type="text"
+                                                                class="form-control"
+                                                                id="bankdetails"
+                                                                style="width: 50%;"
+                                                                placeholder="Enter Branch name">
+                                                        </div>
                                                     </div>
 
                                                 </div>

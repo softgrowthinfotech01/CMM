@@ -59,7 +59,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title"></h4>
+                    <h4 class="card-title text-danger">CUSTOMER RECORD</h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -88,7 +88,7 @@
                           <tr>
                             <td>1</td>
                             <td>Garrett Winters</td>
-                            <td>xxxxxxxx00
+                            <td>8525456512
                             </td>
                             <td>2257 E 23rd St, Oakland, CA 94606, USA</td>
                            
@@ -97,7 +97,7 @@
                           <tr>
                             <td>2</td>
                             <td>Tony Stark</td>
-                            <td>xxxxxxxx11
+                            <td>9856231475
                             </td>
                             <td>3557 D 3rd St, Oakland, CA 94606, USA</td>
                             
@@ -106,7 +106,7 @@
                           <tr>
                             <td>3</td>
                             <td>Peter Parker</td>
-                            <td>xxxxxxxx58
+                            <td>7541351525
                             </td>
                             <td>4567 F 235rd St, Oakland, CA 94606, USA</td>
                             
@@ -115,7 +115,7 @@
                           <tr>
                             <td>4</td>
                             <td>Thomas Shelby</td>
-                            <td>xxxxxxxx72
+                            <td>9654123587
                             </td>
                             <td>0050 G 12rd St, Oakland, CA 94606, USA</td>
                             

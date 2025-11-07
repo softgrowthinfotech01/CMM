@@ -131,7 +131,15 @@
   box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
   z-index: 1000;
 }
-
+.dash-img {
+  height: 600px;
+}
+.img{
+  height: 100%;
+  width: 100%;
+    object-fit: cover;
+  
+}
 </style>
 
   
@@ -152,15 +160,11 @@
       <?php
       require "header.php";
       ?>
-      <div class="container">
-        <div class="page-inner">
-
-          <div class="row">
-           
-            
-            
-          </div>
+      <div class="container ">
+        <div class="dash-img ">
+          <img class="img" src="Dashboradimge.jpg" alt="">
         </div>
+        
       </div>
   <!-- Footer -->
   <?php include "footer.php"; ?>
