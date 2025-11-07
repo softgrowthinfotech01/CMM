@@ -49,7 +49,8 @@
 
       <div class="main-panel">
         <!-- Header -->
-      <?php include "header.php"?>
+         <?php include "header.php"?>
+      
 
         <div class="container">
           <div class="page-inner">
@@ -69,77 +70,72 @@
                         <thead>
                           <tr>
                             <th>SR.NO</th>
-                            <th>CUSTOMER NAME</th>
-                            <th>MATERIAL NAME</th>
-                            <th>QUANTITY</th>
-                            <th>PRICE</th>
-                            <th>AMOUNT</th>
-                            <th>DISCOUNT %</th>
-                            <th>PAYMENT STATUS</th>
-                            <th>PAID/PENDING</th>
-                            
+                            <th>INVOICE NUMBER</th>
+                            <th>DATE</th>
+                            <th>GIVEN AMOUNT</th>
+                            <th>PENDING AMOUNT</th>
+                            <th>DUE DATE</th>
                           </tr>
                         </thead>
                         <tfoot>
                           <tr>
-                           <th>SR.NO</th>
-                            <th>CUSTOMER NAME</th>
-                            <th>MATERIAL Name</th>
-                            <th>QUANTITY</th>
-                            <th>PRICE</th>
-                            <th>AMOUNT</th>
-                            <th>DISCOUNT %</th>
-                            <th>PAYMENT STATUS</th>
-                            <th>PAID/PENDING</th>
+                            <th>SR.NO</th>
+                            <th>INVOICE NUMBER</th>
+                            <th>DATE</th>
+                            <th>GIVEN AMOUNT</th>
+                            <th>PENDING AMOUNT</th>
+                            <th>DUE DATE</th>
+                            
                           </tr>
                         </tfoot>
                         <tbody>
                           <tr>
-                           <td>1</td>
-                            <td>Garrett Winters</td>
-                            <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
+                            <td>1</td>
+                            <td>12312312</td>
+                            <td>00/00/0000
+                            </td>
                             <td>xxxxxxx</td>
-                            <td>5%</td>
-                            <td>Cash</td>
-                            <td>Paid</td>
+                            <td>xxxxxxx</td>
+                            <td>00/00/0000
+                            </td>
+                           
                           </tr>
 
                           <tr>
-                           <td>2</td>
-                            <td>Tony Stark</td>
-                            <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
+                            <td>2</td>
+                            <td>12312312</td>
+                            <td>00/00/0000
+                            </td>
                             <td>xxxxxxx</td>
-                            <td>5%</td>
-                            <td>Online</td>
-                            <td>Paid</td>
+                            <td>xxxxxxx</td>
+                            <td>00/00/0000
+                            </td>
+                            
                           </tr>
 
                           <tr>
-                           <td>3</td>
-                            <td>Peter Parker</td>
-                            <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
+                            <td>3</td>
+                            <td>12312312</td>
+                            <td>00/00/0000
+                            </td>
                             <td>xxxxxxx</td>
-                            <td>5%</td>
-                            <td>Cash</td>
-                            <td>Paid</td>
+                            <td>xxxxxxx</td>
+                            <td>00/00/0000
+                            </td>
+                            
                           </tr>
 
                           <tr>
                             <td>4</td>
-                            <td>Thomas Shelby</td>
-                            <td>Concrete</td>
-                            <td>50</td>
-                            <td>xxxxx</td>
+                            <td>12312312</td>
+                            <td>00/00/0000
+                            </td>
                             <td>xxxxxxx</td>
-                            <td> 5%</td>
-                            <td>Online</td>
-                            <td>Paid</td>
+                            <td>xxxxxxx</td>
+                            <td>00/00/0000
+                            </td>
+                            
+                            
                           </tr>
 
                         </tbody>

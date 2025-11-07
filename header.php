@@ -66,38 +66,50 @@ footer {
       <a href="logistic.php"><h2 class="me-5 mb-0 text-black">Dashboard</h2></a>
 
       <!-- Main Menu -->
-      <div class="d-grid  d-md-block rounded-3 gap-2">
+       <div class="d-grid  rounded-3 d-md-block">
+        <button class="btn btn-light  p-2" type="button"><a class="text-black" href="company.php"> COMPANY  INFORMATIOIN</a></button>
+      </div>
+
+      <div class="d-grid  d-md-block rounded-3 ">
         <button class="btn btn-light p-2 " type="button"><a class="text-black" href="supplier.php"> SUPPLIER INFORMATIOIN</a></button>
       </div>
      
+      <div class="d-grid  rounded-3 d-md-block">
+        <button class="btn btn-light  p-2" type="button"><a class="text-black" href="customer.php"> CUSTOMER INFORMATIOIN</a></button>
+      </div>
+
+     <div class="d-grid  rounded-3 d-md-block">
+        <button class="btn btn-light  p-2" type="button"><a class="text-black" href="invoice.php"> INVOICE INFORMATIOIN</a></button>
+      </div>
+
       <div class="d-grid rounded-3 d-md-block">
         <button class="btn btn-light  p-2" type="button"><a class="text-black" href="purchase.php"> PURCHASE INFORMATION</a></button>
       </div>
 
-     <div class="d-grid gap-2 rounded-3 d-md-block">
-        <button class="btn btn-light  p-2" type="button"><a class="text-black" href="invoice.php"> INVOICE INFORMATIOIN</a></button>
-      </div>
+      <div class="dropdown rounded-3  ">
+        <a class="btn btn-light   dropdown-toggle p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+          PAYMENT
+        </a>
 
-      <div class="d-grid gap-2 rounded-3 d-md-block">
-        <button class="btn btn-light  p-2" type="button"><a class="text-black" href="company.php"> COMPANY  INFORMATIOIN</a></button>
-      </div>
-        
-    
-      <div class="d-grid gap-2 rounded-3 d-md-block">
-        <button class="btn btn-light  p-2" type="button"><a class="text-black" href="customer.php"> CUSTOMER INFORMATIOIN</a></button>
+        <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="supplierwiserecord.php">SUPPLIER WISE REPORT</a></li> <hr>
+          <li><a class="dropdown-item" href="customerwiserecord.php">CUSTOMER WISE REPORT</a></li> <hr>
+        </ul>
       </div>
 
       <div class="dropdown rounded-3 ">
-        <a class="btn btn-white   dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="btn btn-light   dropdown-toggle p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           REPORT
         </a>
 
         <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
-          <li><a class="dropdown-item " href="supplier_record.php">SUPPLIER REPORT</a></li> <hr>
-          <li><a class="dropdown-item" href="purchase_record.php">PURCHASE REPORT</a></li> <hr>
-          <li><a class="dropdown-item" href="invoice_record.php">INVOICE REPORT</a></li> <hr>
+          
           <li><a class="dropdown-item" href="company_record.php">COMPANY REPORT</a></li> <hr>
+          <li><a class="dropdown-item " href="supplier_record.php">SUPPLIER REPORT</a></li> <hr>
           <li><a class="dropdown-item" href="customer_record.php">CUSTOMER REPORT</a></li> <hr>
+          <li><a class="dropdown-item" href="invoice_record.php">INVOICE REPORT</a></li> <hr>
+          <li><a class="dropdown-item" href="purchase_record.php">PURCHASE REPORT</a></li> <hr>
+          
         </ul>
       </div>
 
@@ -107,8 +119,8 @@ footer {
       <!-- Right side user section -->
       <ul class="navbar-nav ms-auto align-items-center rounded-3 ">
         <li class="nav-item dropdown rounded-3 ">
-          <a class="nav-link dropdown-toggle d-flex align-items-center rounded-3" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <span class="fw-bold text-dark rounded-5 ">Hi, Logistics</span>
+          <a class="nav-link dropdown-toggle d-flex align-items-center rounded-3 p-3" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="fw-bold  text-dark rounded-5 ">Hi, Logistics</span>
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
             <li><a class="dropdown-item" href="#">Account Setting</a></li>

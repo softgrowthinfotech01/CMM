@@ -69,7 +69,7 @@
 
             <div class="container">
                 <div class="page-inner">
-                    
+
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
@@ -78,186 +78,186 @@
                                 </div>
                                 <div class="card-body">
                                     <form>
+
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="card">
 
-                                                </div>
-                                            </div>
-
-                                            <div class="row mb-2 rc">
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="recievervendorname">INVOICE NUMBER</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="recievervendorname"
-                                                            placeholder="Enter invoice number" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="recievervendorphone">CUSTOMER NAME</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="recievervendorphone"
-                                                            placeholder="Enter Name" />
+                                                    <div>
                                                     </div>
                                                 </div>
                                             </div>
-
-                                            <div class="row mb-2">
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="location">MATERIAL NAME</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="location"
-                                                            placeholder="Enter Material Name" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="location">QUANTITY</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="location"
-                                                            placeholder="Enter quantity of materials" />
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <div class="row mb-2">
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="location">PRICE</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="location"
-                                                            placeholder="Enter price of materials" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="location">AMOUNT</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="location"
-                                                            placeholder="Enter amount of materials" />
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="row mb-2">
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <label for="location">DISCOUNT %</label>
-                                                        <input
-                                                            type="text"
-                                                            class="form-control"
-                                                            id="location"
-                                                            placeholder="Enter discount offered" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ">
-
-                                                </div>
-
-                                            </div>
-
-                                            <div class="row mb-2">
-                                                <div class="col-md-12">
-                                                    <div class="card">
-                                                        <div class="card-header">
-                                                            <div class="card-title">PAYMENT STATUS</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-                                                        <input
-                                                            type="radio"
-                                                            value="paid" />
-                                                        <label for="paid">PAID</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ">
-                                                    <div class="form-group">
-
-                                                        <input
-                                                            type="radio"
-
-                                                            value="pending" />
-                                                        <label for="pending">PENDING</label>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-
-                                            <div>
-                                                <button class="button button2 mt-4" style="margin-left: 670px;" >SUBMIT</button>
-                                            </div>
-
                                         </div>
-                                    </form>
+                                        <div class="row mb-2">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="suppliername">CUSTOMER NAME</label>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="suppliername"
+                                                        placeholder="Enter Name" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="invoicenumber">INVOICE NUMBER</label>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="invoicenumber"
+                                                        placeholder="Enter number" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+
+
+                                            <table class="table" id="childTable">
+                                                <thead>
+                                                    <tr class="table-dark">
+                                                        <th scope="col">Sr. No.</th>
+                                                        <th scope="col">MATERIAL NAME</th>
+                                                        <th scope="col">QUANTITY</th>
+                                                        <th scope="col"> PRICE</th>
+                                                        <th scope="col">AMOUNT</th>
+                                                        <th scope="col">DISCOUNT</th>
+                                                        <th scope="col" colspan="2">TOTAL</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>
+                                                            <input type="text" name="" id="">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="" id="" style="width: 80px;">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="" id="" style="width: 100px;">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="" id="" style="width: 100px;">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="" id="" style="width: 100px;">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="" id="" style="width: 100px;">
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-success" onclick="childrenRow()">Add</button>
+                                                            <button type="button" class="btn btn-danger btnDelete">Remove</button>
+                                                        </td>
+
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="row mb-2">
+                                            <div class="col-md-12">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <div class="card-title">PAYMENT STATUS</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="suppliername">PAID</label>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="suppliername"
+                                                        placeholder="Enter Name" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="invoicenumber">PAINDING</label>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="invoicenumber"
+                                                        placeholder="Enter number" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button class="button button2 mt-4" style="margin-left: 670px;">SUBMIT</button>
                                 </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>
-
                 </div>
+
                 <!-- Footer -->
-                
+                <?php include "footer.php"; ?>
 
 
             </div>
-            <?php include "footer.php" ?>
-            <!--   Core JS Files   -->
-            <script src="assets/js/core/jquery-3.7.1.min.js"></script>
-            <script src="assets/js/core/popper.min.js"></script>
-            <script src="assets/js/core/bootstrap.min.js"></script>
 
-            <!-- jQuery Scrollbar -->
-            <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
-            <!-- Chart JS -->
-            <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+        </div>
+        <!--   Core JS Files   -->
+        <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+        <script src="assets/js/core/popper.min.js"></script>
+        <script src="assets/js/core/bootstrap.min.js"></script>
 
-            <!-- jQuery Sparkline -->
-            <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+        <!-- jQuery Scrollbar -->
+        <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
-            <!-- Chart Circle -->
-            <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+        <!-- Chart JS -->
+        <script src="assets/js/plugin/chart.js/chart.min.js"></script>
 
-            <!-- Datatables -->
-            <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+        <!-- jQuery Sparkline -->
+        <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
-            <!-- Bootstrap Notify -->
-            <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+        <!-- Chart Circle -->
+        <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
 
-            <!-- jQuery Vector Maps -->
-            <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
-            <script src="assets/js/plugin/jsvectormap/world.js"></script>
+        <!-- Datatables -->
+        <script src="assets/js/plugin/datatables/datatables.min.js"></script>
 
-            <!-- Google Maps Plugin -->
-            <script src="assets/js/plugin/gmaps/gmaps.js"></script>
+        <!-- Bootstrap Notify -->
+        <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
-            <!-- Sweet Alert -->
-            <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+        <!-- jQuery Vector Maps -->
+        <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+        <script src="assets/js/plugin/jsvectormap/world.js"></script>
 
-            <!-- Kaiadmin JS -->
-            <script src="assets/js/kaiadmin.min.js"></script>
+        <!-- Google Maps Plugin -->
+        <script src="assets/js/plugin/gmaps/gmaps.js"></script>
 
-            <!-- Kaiadmin DEMO methods, don't include it in your project! -->
-            <script src="assets/js/setting-demo2.js"></script>
+        <!-- Sweet Alert -->
+        <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
+        <!-- Kaiadmin JS -->
+        <script src="assets/js/kaiadmin.min.js"></script>
+
+        <!-- Kaiadmin DEMO methods, don't include it in your project! -->
+        <script src="assets/js/setting-demo2.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                // Bind the click event once, outside the childrenRow function
+                $("#childTable").on('click', '.btnremove', function() {
+                    $(this).closest('tr').remove();
+                });
+            });
+
+            var i = 1;
+
+            function childrenRow() {
+                i++;
+                $('#childTable').find('tbody').append('<tr><th scope="row">' + i + '</th><td><input type="text"></td><td><input type="text" style="width: 50px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><button type="button" class="btn btn-success" onclick="childrenRow()">Add</button><button type="button" class="btn btnremove btn-danger">Remove</button></td></tr>');
+            }
+        </script>
 </body>
 
 </html>

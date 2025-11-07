@@ -69,7 +69,7 @@
 
       <div class="container">
         <div class="page-inner">
-          
+
           <div class="row">
             <div class="col-md-12">
               <div class="card">
@@ -78,16 +78,16 @@
                 </div>
                 <div class="card-body">
                   <form>
-                    
+
                     <div class="row">
                       <div class="col-md-12">
                         <div class="card">
-                          
+
                           <div>
                           </div>
                         </div>
                       </div>
-                    </div>                
+                    </div>
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
@@ -112,78 +112,80 @@
                     </div>
 
                     <div class="row">
-                          
-    
-    <table class="table" id="childTable">
-  <thead>
-    <tr class="table-dark">
-      <th scope="col">Sr. No.</th>
-      <th scope="col">MATERIAL NAME</th>
-      <th scope="col">QUNTITY</th>
-      <th scope="col"> PRICE</th>
-      <th scope="col">AMOUNT</th>
-      <th scope="col" colspan="2">DISCOUNT</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>
-        <input type="text" name="" id="">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 50px;">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 100px;">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 100px;">
-      </td>
-      <td>
-        <input type="text" name="" id="" style="width: 100px;">
-      </td>
-      <td>
-        <button type="button" class="btn btn-success" onclick="childrenRow()">Add</button>
-<button type="button" class="btn btn-danger btnDelete" >Remove</button>
-      </td>
-      
-    </tr>
-    
-  </tbody>
-</table>
+
+
+                      <table class="table" id="childTable">
+                        <thead>
+                          <tr class="table-dark">
+                            <th scope="col">Sr. No.</th>
+                            <th scope="col">MATERIAL NAME</th>
+                            <th scope="col">QUANTITY</th>
+                            <th scope="col"> PRICE</th>
+                            <th scope="col">AMOUNT</th>
+                            <th scope="col" colspan="2">DISCOUNT</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <input type="text" name="" id="">
+                            </td>
+                            <td>
+                              <input type="text" name="" id="" style="width: 50px;">
+                            </td>
+                            <td>
+                              <input type="text" name="" id="" style="width: 100px;">
+                            </td>
+                            <td>
+                              <input type="text" name="" id="" style="width: 100px;">
+                            </td>
+                            <td>
+                              <input type="text" name="" id="" style="width: 100px;">
+                            </td>
+                            <td>
+                              <button type="button" class="btn btn-success" onclick="childrenRow()">Add</button>
+                              <button type="button" class="btn btn-danger btnDelete">Remove</button>
+                            </td>
+
+                          </tr>
+
+                        </tbody>
+                      </table>
                     </div>
-   <div class="row mb-2">
+                    <div class="row mb-2">
                       <div class="col-md-12">
                         <div class="card">
                           <div class="card-header">
                             <div class="card-title">PAYMENT STATUS</div>
-                            </div>
                           </div>
-                      </div>
-                      <div class="col-md-6 ">
-                        <div class="form-group">
-                          <input 
-                            type="radio"
-                            value="paid"
-                            />
-                            <label for="paid">PAID</lable>                        
                         </div>
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <input 
-                            type="radio"
-                            value="pending"
-                            />
-                            <label for="pending">PENDING</lable>  
+                          <label for="suppliername">PAID</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="suppliername"
+                            placeholder="Enter Name" />
                         </div>
                       </div>
-                    </div> 
-
-                   <button class="button button2 mt-4" style="margin-left: 670px;" >SUBMIT</button>
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="invoicenumber">PAINDING</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="invoicenumber"
+                            placeholder="Enter number" />
+                        </div>
+                      </div>
+                    </div>
+                    <button class="button button2 mt-4" style="margin-left: 670px;">SUBMIT</button>
                 </div>
-                
+
                 </form>
               </div>
             </div>
@@ -193,10 +195,10 @@
         <!-- Footer -->
         <?php include "footer.php"; ?>
 
-      
+
       </div>
 
-      
+
     </div>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery-3.7.1.min.js"></script>
@@ -238,19 +240,20 @@
     <script src="assets/js/setting-demo2.js"></script>
 
     <script>
-$(document).ready(function () {
-  // Bind the click event once, outside the childrenRow function
-  $("#childTable").on('click', '.btnremove', function () {
-    $(this).closest('tr').remove();
-  });
-});
+      $(document).ready(function() {
+        // Bind the click event once, outside the childrenRow function
+        $("#childTable").on('click', '.btnremove', function() {
+          $(this).closest('tr').remove();
+        });
+      });
 
-var i = 1;
-function childrenRow() {
-  i++;
-  $('#childTable').find('tbody').append('<tr><th scope="row">' + i + '</th><td><input type="text"></td><td><input type="text" style="width: 50px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><button type="button" class="btn btn-success" onclick="childrenRow()">Add</button><button type="button" class="btn btnremove btn-danger">Remove</button></td></tr>');
-}
-  </script>
+      var i = 1;
+
+      function childrenRow() {
+        i++;
+        $('#childTable').find('tbody').append('<tr><th scope="row">' + i + '</th><td><input type="text"></td><td><input type="text" style="width: 50px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><button type="button" class="btn btn-success" onclick="childrenRow()">Add</button><button type="button" class="btn btnremove btn-danger">Remove</button></td></tr>');
+      }
+    </script>
 </body>
 
 </html>

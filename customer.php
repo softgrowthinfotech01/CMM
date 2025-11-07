@@ -69,7 +69,7 @@
 
             <div class="container">
                 <div class="page-inner">
-                   
+
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
@@ -81,7 +81,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="card">
-                                                    
+
                                                 </div>
                                             </div>
 
@@ -127,13 +127,18 @@
                                                             class="form-control"
                                                             id="location"
                                                             placeholder="Enter bank details" />
+                                                        &nbsp;<input
+                                                            type="text"
+                                                            class="form-control"
+                                                            id="bankdetails"
+                                                            placeholder="">
                                                     </div>
 
                                                 </div>
 
                                             </div>
                                             <div>
-                                               <button class="button button2 mt-4" style="margin-left: 670px;" >SUBMIT</button>
+                                                <button class="button button2 mt-4" style="margin-left: 670px;">SUBMIT</button>
                                             </div>
 
 
@@ -149,7 +154,7 @@
 
                 </div>
                 <!-- Footer -->
-                    
+
 
             </div>
             <?php include "footer.php" ?>

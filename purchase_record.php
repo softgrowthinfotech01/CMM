@@ -58,7 +58,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title">Basic</h4>
+                    <h4 class="card-title"></h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -68,7 +68,7 @@
                       >
                         <thead>
                           <tr>
-                            <th>PURCHASER</th>
+                            <th>SR.NO</th>
                             <th>SUPPLIERS NAME</th>
                             <th>INVOICE NUMBER</th>
                             <th>MATERIAL NAME</th>
@@ -83,7 +83,7 @@
                         </thead>
                         <tfoot>
                           <tr>
-                           <th>PURCHASER</th>
+                           <th>SR.NO</th>
                             <th>SUPPLIERS NAME</th>
                             <th>INVOICE NUMBER</th>
                             <th>MATERIAL NAME</th>
@@ -97,91 +97,63 @@
                         </tfoot>
                         <tbody>
                           <tr>
-                            <td>101</td>
+                            <td>1</td>
                             <td>Garrett Winters</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>12312312
                             </td>
-                            <td>1st installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>1st Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>Tokyo</td>
-                            <td>good</td>
+                            <td>Concrete</td>
+                            <td>50</td>
+                            <td>xxxxx</td>
+                            <td>xxxxxxx</td>
+                            <td>5%</td>
+                            <td>Cash</td>
+                            <td>Paid</td>
+                            
                           </tr>
 
                           <tr>
-                            <td>102</td>
+                            <td>2</td>
                             <td>Tony Stark</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>12312312
                             </td>
-                            <td>2nd installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>2nd Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>London</td>
-                            <td>Excellent</td>
+                            <td>Concrete</td>
+                            <td>50</td>
+                            <td>xxxxx</td>
+                            <td>xxxxxxx</td>
+                            <td>5%</td>
+                            <td>Online</td>
+                            <td>Paid</td>
+                            
                           </tr>
 
                           <tr>
-                            <td>103</td>
+                            <td>3</td>
                             <td>Peter Parker</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>12312312
                             </td>
-                            <td>1st installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>1st Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>Canada</td>
-                            <td>good</td>
+                            <td>Concrete</td>
+                            <td>50</td>
+                            <td>xxxxx</td>
+                            <td>xxxxxxx</td>
+                            <td>5%</td>
+                            <td>Cash</td>
+                            <td>Paid</td>
+                            
                           </tr>
 
                           <tr>
-                            <td>104</td>
+                            <td>4</td>
                             <td>Thomas Shelby</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>12312312
                             </td>
-                            <td>1st installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>1st Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>Birmingham</td>
-                            <td>good</td>
+                            <td>Concrete</td>
+                            <td>50</td>
+                            <td>xxxxx</td>
+                            <td>xxxxxxx</td>
+                            <td> 5%</td>
+                            <td>Online</td>
+                            <td>Paid</td>
+                           
                           </tr>
 
                         </tbody>

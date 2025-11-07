@@ -138,6 +138,11 @@
                             class="form-control"
                             id="bankdetails"
                             placeholder="Enter bank details">
+                            &nbsp;<input
+                            type="text"
+                            class="form-control"
+                            id="bankdetails"
+                            placeholder="">
                         </div>
                       </div>
                     </div>

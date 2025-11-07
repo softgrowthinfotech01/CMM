@@ -58,7 +58,7 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
-                    <h4 class="card-title">Basic</h4>
+                    <h4 class="card-title"></h4>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
@@ -68,7 +68,7 @@
                       >
                         <thead>
                           <tr>
-                            <th>SUPPLIERS</th>
+                            <th>SR.NO</th>
                             <th>SUPPLIERS NAME</th>
                             <th>SUPPLIERS ADDRESS</th>
                             <th>SUPPLIERS PHONE</th>
@@ -78,7 +78,7 @@
                         </thead>
                         <tfoot>
                           <tr>
-                            <th>SUPPLIERS</th>
+                            <th>SR.NO</th>
                             <th>SUPPLIERS NAME</th>
                             <th>SUPPLIERS ADDRESS</th>
                             <th>SUPPLIERS PHONE</th>
@@ -88,91 +88,43 @@
                         </tfoot>
                         <tbody>
                           <tr>
-                            <td>101</td>
+                            <td>1</td>
                             <td>Garrett Winters</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>2257 E 23rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>1st installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>1st Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>Tokyo</td>
-                            <td>good</td>
+                            <td>xxxxxxxx72</td>
+                            <td>xxxxxxxxxxxxxx1234</td>
+                            
                           </tr>
 
                           <tr>
-                            <td>102</td>
+                            <td>2</td>
                             <td>Tony Stark</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>3557 D 3rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>2nd installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>2nd Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>London</td>
-                            <td>Excellent</td>
+                            <td>xxxxxxxx20</td>
+                            <td>xxxxxxxxxxxxxx4567</td>
+                            
                           </tr>
 
                           <tr>
-                            <td>103</td>
+                            <td>3</td>
                             <td>Peter Parker</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>4567 F 235rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>1st installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>1st Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>Canada</td>
-                            <td>good</td>
+                            <td>xxxxxxxx71</td>
+                            <td>xxxxxxxxxxxxxx0052</td>
+                            
                           </tr>
 
                           <tr>
-                            <td>104</td>
+                            <td>4</td>
                             <td>Thomas Shelby</td>
-                            <td>TC
-                                10
-                                12
-                                other
-                                caste
-                                non-creminal
-                                domecial
-                                others
+                            <td>0050 G 12rd St, Oakland, CA 94606, USA
                             </td>
-                            <td>1st installment</td>
-                            <td>$4000</td>
-                            <td>126655</td>
-                            <td>1st Year</td>
-                            <td>999999999</td>
-                            <td>777777777</td>
-                            <td>Birmingham</td>
-                            <td>good</td>
+                            <td>xxxxxxxx22</td>
+                            <td>xxxxxxxxxxxxxx1111</td>
+                            
                           </tr>
 
                         </tbody>
