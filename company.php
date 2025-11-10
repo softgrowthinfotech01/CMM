@@ -44,19 +44,41 @@
       background-color: orange;
       color: white;
     }
-   
-      ::file-selector-button 
+    .custom-button 
     {
-      border: 2px solid black;
-      padding: 4px;
-      border-radius: 5px;
-      background-color: lightgreen;
+    padding: 8px 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif; 
+    justify-content: space-between;
+    
     }
-    .card-title
+
+    .custom-button:hover
     {
-      
+    background-color: #056405ff;
     }
     
+    .customb
+    {
+    
+    
+    padding: 8px 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif; 
+  
+    }
+    .customb:hover
+    {
+    background-color: #056405ff;
+    }
   </style>
 
   <!-- CSS Files -->
@@ -82,7 +104,7 @@
 
       <div class="container">
         <div class="page-inner">
-          
+
           <div class="row">
             <div class="col-md-12">
               <div class="card">
@@ -91,70 +113,74 @@
                 </div>
                 <div class="card-body">
                   <form>
-                    
+
                     <div class="row">
                       <div class="col-md-12">
                         <div class="card">
-                          
+
                           <div>
                           </div>
                         </div>
                       </div>
-                    </div>                
+                    </div>
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="companyname">COMPANY NAME</label>
+                          <label for="companyName">COMPANY NAME</label>
                           <input
-                            type="text"
+                            type="name"
                             class="form-control"
-                            id="companyname"
+                            id="companyName"
                             placeholder="Enter company Name" />
                         </div>
                       </div>
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="phonenumber">PHONE</label>
+                          <label for="phoneNumber">PHONE</label>
                           <input
-                            type="text"
+                            type="phoneNumber"
                             class="form-control"
-                            id="phonenumber"
+                            id="phoneNumber"
                             placeholder="Enter phone number" />
                         </div>
                       </div>
                     </div>
-                      
+
 
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
                           <label for="address">ADDRESS</label>
                           <input
-                            type="text"
+                            type="address"
                             class="form-control"
                             id="address"
                             placeholder="Enter address" />
                         </div>
                       </div>
                       <div class="col-md-6 ">
-                        <div class="form-group">
+                        <div class="form-group ">
                           <label class="pb-2" for="companylogo">COMPANY LOGO</label><br>
-                          <input class="rounded-2" type="file" id="myFile" name="filename">
-                          <input class="rounded-2 p-1 ps-2 pe-2" style="background-color: #90EE90;" type="submit">
+                          <input type="file" id="fileUpload" hidden>
+                         
+                          <label for="fileUpload" class="custom-button text-dark">Choose file</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="customb text-dark  "type="Submit">
+                         
                         </div>
                       </div>
-                    </div>
-                    
+                    </div><br>
 
-                    
-                       
-                     
 
-                      
-                   
-                    <button class="button button2 mt-4" style="margin-left: 670px;" >SAVE</button>
+
+
+
+
+
+
+                    <button class="button button2 mt-4" style="margin-left: 670px;">SAVE</button>
                 </div>
-                
+
                 </form>
               </div>
             </div>
@@ -162,12 +188,12 @@
         </div>
 
         <!-- Footer -->
-        
 
-      
-      </div>
 
-      <?php include "footer.php"; ?>
+
+      </div><br>
+
+     <?php include "footer.php"; ?>
     </div>
     <!--   Core JS Files   -->
     <script src="assets/js/core/jquery-3.7.1.min.js"></script>

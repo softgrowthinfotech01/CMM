@@ -42,19 +42,19 @@ footer {
 }
 .d-grid:hover
 {
-  background-color:grey;
+  background-color: rgb(25, 520, 125, 7);
 }
 .navbar-nav:hover
 {
-  background-color: grey;
+  background-color: rgb(25, 520, 125, 7);
 }
 .dropdown:hover
 {
-  background-color: grey;
+  background-color: rgb(25, 520, 125, 7);
 }
 .dropdown-item:hover
 {
-  background-color: lightgray;
+  background-color: gray;
 }
 
 

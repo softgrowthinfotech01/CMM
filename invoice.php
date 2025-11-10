@@ -91,21 +91,21 @@
                                         <div class="row mb-2">
                                             <div class="col-md-6 ">
                                                 <div class="form-group">
-                                                    <label for="suppliername">CUSTOMER NAME</label>
+                                                    <label for="customerName">CUSTOMER NAME</label>
                                                     <input
-                                                        type="text"
+                                                        type="name"
                                                         class="form-control"
-                                                        id="suppliername"
-                                                        placeholder="Enter Name" />
+                                                        id="customerName"
+                                                        placeholder="Enter name" />
                                                 </div>
                                             </div>
                                             <div class="col-md-6 ">
                                                 <div class="form-group">
-                                                    <label for="invoicenumber">INVOICE NUMBER</label>
+                                                    <label for="invoiceNumber">INVOICE NUMBER</label>
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="invoicenumber"
+                                                        id="invoiceNumber"
                                                         placeholder="Enter number" />
                                                 </div>
                                             </div>
@@ -113,19 +113,46 @@
                                         <div class="row mb-2">
                                             <div class="col-md-6 ">
                                                 <div class="form-group">
-                                                    <label for="phone number">PHONE NUMBER</label>
+                                                    <label for="phoneNumber">PHONE NUMBER</label>
                                                     <input
-                                                        type="text"
+                                                        type="phoneNumber"
                                                         class="form-control"
-                                                        id="phone number"
+                                                        id="phoneNumber"
                                                         placeholder="Enter phone number" />
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-
+                                                <div class="form-group">
+                                                    <label for="emailAddress">Email ADDRESS</label>
+                                                    <input
+                                                        type="emailAddress"
+                                                        class="form-control"
+                                                        id="emailAddress"
+                                                        placeholder="Enter Email address" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="date">DATE</label>
+                                                    <input
+                                                        type="date"
+                                                        class="form-control"
+                                                        id="date"
+                                                        placeholder="Enter date" />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="docNumber">DISPATCH DOC NUMBER </label>
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="docNumber"
+                                                        placeholder="Enter DOC number" />
+                                                </div>
                                             </div>
                                         </div>
-                                            
+
                                         <div class="row">
 
 
@@ -134,6 +161,7 @@
                                                     <tr class="table-dark">
                                                         <th scope="col">Sr. No.</th>
                                                         <th scope="col">MATERIAL NAME</th>
+                                                        <th scope="col">UNIT</th>
                                                         <th scope="col">QUANTITY</th>
                                                         <th scope="col"> PRICE</th>
                                                         <th scope="col">AMOUNT</th>
@@ -145,10 +173,39 @@
                                                     <tr>
                                                         <th scope="row">1</th>
                                                         <td>
-                                                            <input type="text" name="" id="">
+                                                            <div class="dropdowns rounded-3  ">
+                                                                <select class="rounded-2 border border-1" style="width: 130px; height: 36px ;">
+                                                                    <option value="Select">-Select-</option>
+                                                                    <option value="m5">M5</option>
+                                                                    <option value="m7.5">M7.5</option>
+                                                                    <option value="m10">M10</option>
+                                                                    <option value="m15">M15</option>
+                                                                    <option value="m20">M20</option>
+                                                                    <option value="m25">M25</option>
+                                                                    <option value="m30">M30</option>
+                                                                    <option value="m40">M40</option>
+                                                                    <option value="m50">M50</option>
+                                                                    <option value="m55">M55</option>
+                                                                    <option value="m60">M60</option>
+                                                                    <option value="m80">M80</option>
+
+                                                                </select>
+
+                                                            </div>
                                                         </td>
                                                         <td>
-                                                            <input type="text" name="" id="" style="width: 80px;">
+                                                            <div class="dropdowns rounded-3  ">
+                                                                <select class="rounded-2 border border-1" style="width: 100px; height: 36px ;">
+                                                                    <option value="Select">-Select-</option>
+                                                                    <option value="metricton">Metric ton</option>
+                                                                    <option value="cubicfeet">Cubic feet</option>
+                                                                    <option value="liters">Liters</option>
+                                                                    <option value="kg">kg</option>
+                                                                </select>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" name="" id="" style="width: 100px;">
                                                         </td>
                                                         <td>
                                                             <input type="text" name="" id="" style="width: 100px;">
@@ -182,25 +239,48 @@
                                             </div>
                                             <div class="col-md-6 ">
                                                 <div class="form-group">
-                                                    <label for="suppliername">PAID</label>
+                                                    <label for="payment">PAID</label>
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="suppliername"
-                                                        placeholder="Enter Name" />
+                                                        id="payment"
+                                                        placeholder="Enter amount" />
                                                 </div>
                                             </div>
                                             <div class="col-md-6 ">
                                                 <div class="form-group">
-                                                    <label for="invoicenumber">PAINDING</label>
+                                                    <label for="payment">PENDING</label>
                                                     <input
                                                         type="text"
                                                         class="form-control"
-                                                        id="invoicenumber"
-                                                        placeholder="Enter number" />
+                                                        id="payment"
+                                                        placeholder="Enter amount" />
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="row mb-2">
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="payment">PAYMENTS METHOD</label><br>
+                                                    <select class="rounded-2 border form-select form-control border-1">
+                                                        <option value="select">-Select-</option>
+                                                        <option value="cash">Cash</option>
+                                                        <option value="mumbai">UPI</option>
+                                                        <option value="rtgs">RTGS</option>
+                                                        <option value="neft">NEFT</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <div class="form-group">
+                                                    <label for="remark">REMARK</label><br>
+                                                    <textarea name="remark" id="remark" placeholder="Enter message" rows="3" cols="81">
+
+                                                        </textarea>
+                                                </div>
+                                            </div>
+                                        </div><br><br>
+
 
                                         <button class="button button2 mt-4" style="margin-left: 670px;">SUBMIT</button>
                                 </div>
@@ -270,7 +350,7 @@
 
             function childrenRow() {
                 i++;
-                $('#childTable').find('tbody').append('<tr><th scope="row">' + i + '</th><td><input type="text"></td><td><input type="text" style="width: 50px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><button type="button" class="btn btn-success" onclick="childrenRow()">Add</button><button type="button" class="btn btnremove btn-danger">Remove</button></td></tr>');
+                $('#childTable').find('tbody').append('<tr><th scope="row">' + i + '</th><td><div class="dropdowns rounded-3  "><select class="rounded-2 border border-1" style="width: 130px; height: 36px ;"><option value="Select">-Select-</option><option value="m5">M5</option><option value="m7.5">M7.5</option><option value="m10">M10</option> <option value="m15">M15</option><option value="m20">M20</option><option value="m25">M25</option><option value="m30">M30</option> <option value="m40">M40</option> <option value="m50">M50</option> <option value="m60">M60</option><option value="m80">M80</option></select></div></td><td><div class="dropdowns rounded-3  "><select class="rounded-2 border border-1" style="width: 100px; height: 36px ;"><option value="Select">Select</option><option value="Nagpur">Metric ton</option><option value="Mumbai">Cubic feet</option><option value="Pune">Liters</option><option value="Chandrapur">kg</option></select></div></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><input type="text" style="width: 100px;"></td><td><button type="button" class="btn btn-success" onclick="childrenRow()">Add</button><button type="button" class="btn btnremove btn-danger">Remove</button></td></tr>');
             }
         </script>
 </body>

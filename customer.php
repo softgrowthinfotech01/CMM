@@ -88,22 +88,22 @@
                                             <div class="row mb-2 rc">
                                                 <div class="col-md-6 ">
                                                     <div class="form-group">
-                                                        <label for="recievervendorname">CUSTOMER NAME</label>
+                                                        <label for="customerName">CUSTOMER NAME</label>
                                                         <input
                                                             type="text"
                                                             class="form-control"
-                                                            id="recievervendorname"
-                                                            placeholder="Enter Name" />
+                                                            id="customerName"
+                                                            placeholder="Enter name" />
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
                                                     <div class="form-group">
-                                                        <label for="recievervendorphone">CUSTOMER ADDRESS</label>
+                                                        <label for="address">CUSTOMER ADDRESS</label>
                                                         <input
-                                                            type="text"
+                                                            type="address"
                                                             class="form-control"
-                                                            id="recievervendorphone"
-                                                            placeholder="Enter Address" />
+                                                            id="customerAddress"
+                                                            placeholder="Enter address" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -111,39 +111,47 @@
                                             <div class="row mb-2">
                                                 <div class="col-md-6 ">
                                                     <div class="form-group">
-                                                        <label for="location">CUSTOMER NUMBER</label>
+                                                        <label for="customerNumber">CUSTOMER NUMBER</label>
                                                         <input
                                                             type="text"
                                                             class="form-control"
-                                                            id="location"
+                                                            id="customerNumber"
                                                             placeholder="Enter phone number" />
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6 ">
                                                     <div class="form-group">
-                                                        <label for="location">BANK DETAILS</label>
+                                                        <label for="gstNumber">GST NUMBER</label>
                                                         <input
                                                             type="text"
                                                             class="form-control"
-                                                            id="location"
-                                                            placeholder="Enter Account number" />
-                                                        &nbsp;<div class="d-flex gap-5"> <input
-                                                                type="text"
-                                                                class="form-control"
-                                                                id="bankdetails"
-                                                                style="width: 50%;"
-                                                                placeholder="Enter IFSC code">
-                                                            <input
-                                                                type="text"
-                                                                class="form-control"
-                                                                id="bankdetails"
-                                                                style="width: 50%;"
-                                                                placeholder="Enter Branch name">
-                                                        </div>
+                                                            id="gstNumber"
+                                                            placeholder="Enter GST number" />
                                                     </div>
 
                                                 </div>
 
+                                            </div>
+                                            <div class="row mb-2">
+                                                <label class="form-label">ADDRESS</label>
+                                                <fieldset class="border rounded p-1 mb-4">
+                                                    <legend class="px-2 fw-normal"></legend>
+                                                    <div class="row mb-2">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="consignee">Consignee(Ship to)</label>
+                                                                <input type="text" class="form-control" id="consignee" name="consignee" placeholder="Enter address" />
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="buyer">Buyer(Bill to)</label>
+                                                                <input type="text" class="form-control" id="buyer" name="buyer" placeholder="Enter address" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
                                             </div>
                                             <div>
                                                 <button class="button button2 mt-4" style="margin-left: 670px;">SUBMIT</button>

@@ -44,8 +44,8 @@
       background-color: orange;
       color: white;
     }
-      ::file-selector-button 
-    {
+
+    ::file-selector-button {
       border: 2px solid black;
       padding: 4px;
       border-radius: 5px;
@@ -76,7 +76,7 @@
 
       <div class="container">
         <div class="page-inner">
-          
+
           <div class="row">
             <div class="col-md-12">
               <div class="card">
@@ -85,137 +85,141 @@
                 </div>
                 <div class="card-body">
                   <form>
-                    
+
                     <div class="row">
                       <div class="col-md-12">
                         <div class="card">
-                          
+
                           <div>
                           </div>
                         </div>
                       </div>
-                    </div>                
-                    <div class="row mb-2">
-                      <div class="col-md-6 ">
-                        <div class="form-group">
-                          <label for="suppliername">SUPPLIER NAME</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="suppliername"
-                            placeholder="Enter Name" />
-                        </div>
-                      </div>
-                      <div class="col-md-6 ">
-                        <div class="form-group">
-                          <label for="address">SUPPLIER ADDRESS</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="address"
-                            placeholder="Enter address" />
-                        </div>
-                      </div>
                     </div>
-                      
-
                     <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="phonenumber">SUPPLIER PHONE</label>
+                          <label for="supplierName">SUPPLIER NAME</label>
                           <input
-                            type="text"
+                            type="name"
                             class="form-control"
-                            id="phone number"
+                            id="supplierName"
+                            placeholder="Enter name" />
+                        </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          <label for="phoneNumber">SUPPLIER PHONE</label>
+                          <input
+                            type="phoneNumber"
+                            class="form-control"
+                            id="phoneNumber"
                             placeholder="Enter phone number" />
                         </div>
                       </div>
+                    </div>
+                    <div class="row mb-2">
                       <div class="col-md-6 ">
                         <div class="form-group">
-                          <label for="bankdetials">BANK DETAILS</label>
+                          <label for="gstNumber">GST NUMBER</label>
                           <input
                             type="text"
                             class="form-control"
-                            id="bankdetails"
-                            placeholder="Enter Account number">
-                            &nbsp;<div class="d-flex gap-5"> <input
-                            type="text"
-                            class="form-control"
-                            id="bankdetails"
-                            style="width: 50%;"
-                            placeholder="Enter IFSC code">
-                            <input
-                            type="text"
-                            class="form-control"
-                            id="bankdetails"
-                            style="width: 50%;"
-                            placeholder="Enter Branch name"></div>
+                            id="gstNumber"
+                            placeholder="Enter GST number" />
+                        </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <div class="form-group">
+                          
                         </div>
                       </div>
                     </div>
+                    <div class="row mb-2">
+                      <label class="form-label">ADDRESS</label>
+                      <fieldset class="border rounded p-1 mb-4">
+                        <legend class="px-2 fw-normal"></legend>
+                        <div class="row mb-2">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="consignee">Consignee(Ship to)</label>
+                              <input type="address" class="form-control" id="consignee" name="consignee" placeholder="Enter address" />
+                            </div>
+                          </div>
+                         
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="buyer">Buyer(Bill to)</label>
+                              <input type="address" class="form-control" id="buyer" name="buyer" placeholder="Enter address" />
+                            </div>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </div>
                     
 
-                    
-                       
-                     
 
-                      
-                   
-                    <button class="button button2 mt-4 " style="margin-left: 670px;" >SAVE</button>
+
+
+
+
+
+
+
+                      <button class="button button2 mt-4 " style="margin-left: 670px;">SAVE</button>
+                    </div>
+
+                  </form>
                 </div>
-                
-                </form>
               </div>
             </div>
           </div>
+
+          <!-- Footer -->
+
+
+
         </div>
+        <?php include "footer.php"; ?>
 
-        <!-- Footer -->
-       
-
-      
       </div>
- <?php include "footer.php"; ?>
-      
-    </div>
-    <!--   Core JS Files   -->
-    <script src="assets/js/core/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/core/popper.min.js"></script>
-    <script src="assets/js/core/bootstrap.min.js"></script>
+      <!--   Core JS Files   -->
+      <script src="assets/js/core/jquery-3.7.1.min.js"></script>
+      <script src="assets/js/core/popper.min.js"></script>
+      <script src="assets/js/core/bootstrap.min.js"></script>
 
-    <!-- jQuery Scrollbar -->
-    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+      <!-- jQuery Scrollbar -->
+      <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
-    <!-- Chart JS -->
-    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+      <!-- Chart JS -->
+      <script src="assets/js/plugin/chart.js/chart.min.js"></script>
 
-    <!-- jQuery Sparkline -->
-    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+      <!-- jQuery Sparkline -->
+      <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
-    <!-- Chart Circle -->
-    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+      <!-- Chart Circle -->
+      <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
 
-    <!-- Datatables -->
-    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+      <!-- Datatables -->
+      <script src="assets/js/plugin/datatables/datatables.min.js"></script>
 
-    <!-- Bootstrap Notify -->
-    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+      <!-- Bootstrap Notify -->
+      <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
-    <!-- jQuery Vector Maps -->
-    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
-    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+      <!-- jQuery Vector Maps -->
+      <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
+      <script src="assets/js/plugin/jsvectormap/world.js"></script>
 
-    <!-- Google Maps Plugin -->
-    <script src="assets/js/plugin/gmaps/gmaps.js"></script>
+      <!-- Google Maps Plugin -->
+      <script src="assets/js/plugin/gmaps/gmaps.js"></script>
 
-    <!-- Sweet Alert -->
-    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+      <!-- Sweet Alert -->
+      <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
 
-    <!-- Kaiadmin JS -->
-    <script src="assets/js/kaiadmin.min.js"></script>
+      <!-- Kaiadmin JS -->
+      <script src="assets/js/kaiadmin.min.js"></script>
 
-    <!-- Kaiadmin DEMO methods, don't include it in your project! -->
-    <script src="assets/js/setting-demo2.js"></script>
+      <!-- Kaiadmin DEMO methods, don't include it in your project! -->
+      <script src="assets/js/setting-demo2.js"></script>
 
 </body>
 

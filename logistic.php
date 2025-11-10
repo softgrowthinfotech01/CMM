@@ -130,6 +130,8 @@
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
   z-index: 1000;
+  margin-top: 2px;
+  color: white;
 }
 .dash-img {
   height: 600px;
